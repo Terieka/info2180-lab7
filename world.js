@@ -2,9 +2,10 @@ $(document).ready(function(){
     $("#lookup").on('click',function(){
         search($("#country").val());
         
-    $("#checkall").on('click',function(){
+    $("#checkall").on('check',function(){
         getall();
     });
+    
     });
 });
 
